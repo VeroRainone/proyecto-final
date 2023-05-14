@@ -1,0 +1,23 @@
+.header{
+    min-height: 20vh;
+    background-image: url("../recursos/olas\ mar\ header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    img{
+        width: 140px;
+        height: 130px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        flex-direction: row-reverse;
+        .nav-link{
+            color: map-get($color, "black");
+            font-weight: bold;
+            &:hover{
+                color: map-get($color, "blue");
+            }
+        }
+    }
+}

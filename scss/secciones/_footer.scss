@@ -1,0 +1,54 @@
+.footer{
+    min-height: 10vh;
+    background-image: url("../recursos/fondo\ mar\ corales.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @include tablet{
+        justify-content: space-between;
+        padding-left: 15px;
+    }
+    img{
+        width: 140px;
+        height: 130px;
+    }
+    .redes-sociales {
+        display: flex;
+        flex-direction: column;
+        @include tablet {
+            width: 500px;
+            align-items: center;
+        }
+        h4{
+            color: map-get($color, "blue");
+        }
+        .ul-footer {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0;
+            width: 150px;
+            img{
+                width: 50px;
+                height: 50px;
+            }    
+            .logo-wap{    
+                @include tablet {
+                    width: 70px;
+                    height: 70px;
+                }    
+                @include notebook{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .position {
+                position: fixed;
+                bottom: 80px;
+                right: 30px;
+            }
+        }
+    }
+} 

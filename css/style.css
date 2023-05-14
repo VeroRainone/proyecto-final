@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sedgwick+Ave+Display&display=swap");
+.typo-externa {
+  font-family: 'Bebas Neue', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.main-height {
+  min-height: 70vh; }
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 7px 40px;
+  box-shadow: 6px 7px 4px gray; }
+  .button:hover {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    transform: scale(1.03);
+    transition: .3s; }
+
+.header {
+  min-height: 20vh;
+  background-image: url("../recursos/olas mar header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .header img {
+    width: 140px;
+    height: 130px; }
+  .header .navbar-toggler:focus {
+    box-shadow: none; }
+  .header .navbar-collapse {
+    flex-direction: row-reverse; }
+    .header .navbar-collapse .nav-link {
+      color: black;
+      font-weight: bold; }
+      .header .navbar-collapse .nav-link:hover {
+        color: blue; }
+
+.h1-banner {
+  background-color: #dad7d7;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 10px; }
+  @media (min-width: 768px) {
+    .h1-banner {
+      width: 515px;
+      margin-left: 100px; } }
+  @media (min-width: 1024px) {
+    .h1-banner {
+      width: 565px;
+      margin-left: 190px; } }
+  @media (min-width: 1044px) {
+    .h1-banner {
+      width: 600px;
+      margin-left: 370px; } }
+
+.ancho-banner {
+  width: 100%; }
+  .ancho-banner img {
+    height: 500px;
+    object-fit: cover; }
+  .ancho-banner .texto-banner {
+    background-color: rgba(218, 215, 215, 0.2);
+    width: 300px;
+    height: 130px; }
+    @media (min-width: 768px) {
+      .ancho-banner .texto-banner {
+        width: 420px; } }
+    @media (min-width: 1024px) {
+      .ancho-banner .texto-banner {
+        width: 580px; } }
+
+@media (min-width: 768px) {
+  .green-code {
+    display: flex;
+    justify-content: space-evenly; } }
+
+.green-code .green-code-card {
+  width: 300px;
+  height: 610px;
+  margin: 10px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #dad7d7; }
+  @media (min-width: 768px) {
+    .green-code .green-code-card {
+      height: auto; } }
+  @media (min-width: 1024px) {
+    .green-code .green-code-card {
+      width: 450px;
+      height: 515px;
+      margin-top: 70px; } }
+  .green-code .green-code-card .barra-card-index {
+    border-left: 5px solid #414040;
+    width: 210px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .green-code .green-code-card .barra-card-index {
+        width: 245px;
+        margin-left: 30px; } }
+    @media (min-width: 1024px) {
+      .green-code .green-code-card .barra-card-index {
+        width: 260px;
+        margin-left: 110px; } }
+    @media (min-width: 1044px) {
+      .green-code .green-code-card .barra-card-index {
+        width: 270px;
+        margin-left: 100px; } }
+  .green-code .green-code-card p {
+    margin: 10px; }
+
+.green-code .green-icons {
+  display: block;
+  width: 300px;
+  margin: 15px auto; }
+  @media (min-width: 768px) {
+    .green-code .green-icons {
+      width: 450px; } }
+
+.opiniones {
+  display: flex;
+  flex-direction: column;
+  background-color: #dad7d7; }
+  .opiniones .barra-index {
+    border-left: 5px solid #414040;
+    width: 275px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .opiniones .barra-index {
+        width: 340px;
+        margin-left: 220px; } }
+    @media (min-width: 1024px) {
+      .opiniones .barra-index {
+        width: 365px;
+        margin-left: 335px; } }
+    @media (min-width: 1044px) {
+      .opiniones .barra-index {
+        width: 385px;
+        margin-left: 480px; } }
+  .opiniones figure {
+    display: flex;
+    justify-content: space-between; }
+    @media (min-width: 768px) {
+      .opiniones figure {
+        justify-content: space-around; } }
+    .opiniones figure img {
+      width: 100px;
+      height: 100px;
+      border-radius: 150px; }
+      @media (min-width: 768px) {
+        .opiniones figure img {
+          width: 200px;
+          height: 200px; } }
+    .opiniones figure p {
+      width: 100px; }
+      @media (min-width: 768px) {
+        .opiniones figure p {
+          width: 200px; } }
+
+.iconos img {
+  width: 150px; }
+  @media (min-width: 768px) {
+    .iconos img {
+      margin: 0 90px; } }
+
+.banner-clases {
+  background-image: url("../recursos/fondo mar estrella.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 515px;
+  background-attachment: fixed;
+  margin: 30px 0;
+  color: black;
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .banner-clases {
+      height: 300px; } }
+  .banner-clases p {
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold; }
+
+.barra-clases {
+  border-left: 5px solid #414040;
+  width: 270px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .barra-clases {
+      width: 480px;
+      margin-left: 170px; } }
+  @media (min-width: 1024px) {
+    .barra-clases {
+      width: 530px;
+      margin-left: 265px; } }
+  @media (min-width: 1044px) {
+    .barra-clases {
+      width: 570px;
+      margin-left: 425px; } }
+
+.box-clases {
+  box-shadow: 0 0 20px gray;
+  margin: 50px auto; }
+  .box-clases .card {
+    margin: 15px 0; }
+
+.mapa-zonas {
+  display: flex;
+  justify-content: center; }
+  .mapa-zonas img {
+    width: 280px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px gray; }
+    @media (min-width: 768px) {
+      .mapa-zonas img {
+        width: 500px;
+        margin: 30px 0; } }
+    @media (min-width: 1024px) {
+      .mapa-zonas img {
+        width: 650px;
+        margin: 50px 0; } }
+
+.bg-zonas {
+  background-color: #dad7d7; }
+
+.barra-zonas {
+  border-left: 5px solid #414040;
+  width: 270px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px; }
+  @media (min-width: 768px) {
+    .barra-zonas {
+      width: 350px;
+      margin-left: 220px; } }
+  @media (min-width: 1024px) {
+    .barra-zonas {
+      width: 385px;
+      margin-left: 320px; } }
+  @media (min-width: 1044px) {
+    .barra-zonas {
+      width: 400px;
+      margin-left: 475px; } }
+
+@media (min-width: 768px) {
+  .zonas-destacadas {
+    display: flex;
+    justify-content: space-evenly; } }
+
+.zonas-destacadas__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .zonas-destacadas__contenedor figure {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer; }
+    @media (min-width: 768px) {
+      .zonas-destacadas__contenedor figure {
+        width: 245px;
+        height: 355px; } }
+    @media (min-width: 1024px) {
+      .zonas-destacadas__contenedor figure {
+        width: 300px;
+        height: 300px; } }
+    @media (min-width: 1044px) {
+      .zonas-destacadas__contenedor figure {
+        width: 350px;
+        height: 350px; } }
+    .zonas-destacadas__contenedor figure img {
+      height: 100%;
+      transition: all 0.5s ease-out; }
+    .zonas-destacadas__contenedor figure .capa {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 103, 123, 0.4);
+      transition: all 0.5s ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center; }
+      .zonas-destacadas__contenedor figure .capa h2 {
+        margin: 10px;
+        transform: translatex(-300px);
+        opacity: 0;
+        color: white;
+        transition: all 1s ease; }
+      .zonas-destacadas__contenedor figure .capa p {
+        margin: 20px;
+        transform: translateX(300px);
+        opacity: 0;
+        color: white;
+        transition: all 1s ease; }
+      .zonas-destacadas__contenedor figure .capa button {
+        transform: translateX(300px);
+        opacity: 0;
+        transition: all 1s ease; }
+    .zonas-destacadas__contenedor figure:hover > .capa {
+      opacity: 1;
+      visibility: visible; }
+    .zonas-destacadas__contenedor figure:hover > .capa h2 {
+      transform: translatex(0px);
+      opacity: 1; }
+    .zonas-destacadas__contenedor figure:hover > .capa p {
+      transform: translateX(0px);
+      opacity: 1; }
+    .zonas-destacadas__contenedor figure:hover > .capa button {
+      transform: translateX(0px);
+      opacity: 1; }
+
+.barra-galeria {
+  border-left: 5px solid #414040;
+  width: 180px;
+  margin-left: 65px;
+  margin-top: 15px; }
+  @media (min-width: 768px) {
+    .barra-galeria {
+      width: 220px;
+      margin-left: 285px; } }
+  @media (min-width: 1024px) {
+    .barra-galeria {
+      width: 250px;
+      margin-left: 380px; } }
+  @media (min-width: 1044px) {
+    .barra-galeria {
+      width: 270px;
+      margin-left: 540px; } }
+
+.grid-area-bautismos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "foto1 foto2"  "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12";
+  width: 300px;
+  height: 750px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px gray; }
+  @media (min-width: 768px) {
+    .grid-area-bautismos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12";
+      width: 768px;
+      height: 600px; } }
+  .grid-area-bautismos .foto1 {
+    background-image: url("../recursos/bautismo1.jpg"); }
+  .grid-area-bautismos .foto2 {
+    background-image: url("../recursos/bautismo2.avif"); }
+  .grid-area-bautismos .foto3 {
+    background-image: url("../recursos/bautismo3.avif"); }
+  .grid-area-bautismos .foto4 {
+    background-image: url("../recursos/bautismo4.jpg"); }
+  .grid-area-bautismos .foto5 {
+    background-image: url("../recursos/buceadores1.avif"); }
+  .grid-area-bautismos .foto6 {
+    background-image: url("../recursos/buceadores2.avif"); }
+  .grid-area-bautismos .foto7 {
+    background-image: url("../recursos/buceadores3.avif"); }
+  .grid-area-bautismos .foto8 {
+    background-image: url("../recursos/buceadores4.avif"); }
+  .grid-area-bautismos .foto9 {
+    background-image: url("../recursos/buzo peces coral.avif"); }
+  .grid-area-bautismos .foto10 {
+    background-image: url("../recursos/buzo en arrecife.jpg"); }
+  .grid-area-bautismos .foto11 {
+    background-image: url("../recursos/buzo tortuga.avif"); }
+  .grid-area-bautismos .foto12 {
+    background-image: url("../recursos/mujer buceando peces .avif"); }
+  .grid-area-bautismos .img {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 5px; }
+    .grid-area-bautismos .img:hover {
+      transform: scale(1.2);
+      transition: 0.5s; }
+
+.barra-contacto {
+  border-left: 5px solid #414040;
+  width: 150px;
+  margin-left: 85px;
+  margin-top: 15px; }
+  @media (min-width: 768px) {
+    .barra-contacto {
+      width: 170px;
+      margin-left: 290px; } }
+  @media (min-width: 1024px) {
+    .barra-contacto {
+      width: 195px;
+      margin-left: 405px; } }
+  @media (min-width: 1044px) {
+    .barra-contacto {
+      width: 205px;
+      margin-left: 570px; } }
+
+.fondo-contacto {
+  background-image: url("../recursos/mar abierto.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed; }
+
+.ancho-maximo {
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 30px; }
+  .ancho-maximo .fuente, .ancho-maximo .subrayado {
+    font-size: 21px;
+    font-weight: bold; }
+  .ancho-maximo .subrayado {
+    text-decoration: underline; }
+  .ancho-maximo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .ancho-maximo form input {
+      display: block;
+      width: 260px;
+      margin: 3px; }
+    .ancho-maximo form textarea {
+      width: 260px;
+      margin: 3px; }
+    .ancho-maximo form p {
+      font-size: 18px; }
+
+.footer {
+  min-height: 10vh;
+  background-image: url("../recursos/fondo mar corales.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  @media (min-width: 768px) {
+    .footer {
+      justify-content: space-between;
+      padding-left: 15px; } }
+  .footer img {
+    width: 140px;
+    height: 130px; }
+  .footer .redes-sociales {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .footer .redes-sociales {
+        width: 500px;
+        align-items: center; } }
+    .footer .redes-sociales h4 {
+      color: blue; }
+    .footer .redes-sociales .ul-footer {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      padding-left: 0;
+      width: 150px; }
+      .footer .redes-sociales .ul-footer img {
+        width: 50px;
+        height: 50px; }
+      @media (min-width: 768px) {
+        .footer .redes-sociales .ul-footer .logo-wap {
+          width: 70px;
+          height: 70px; } }
+      @media (min-width: 1024px) {
+        .footer .redes-sociales .ul-footer .logo-wap {
+          width: 80px;
+          height: 80px; } }
+      .footer .redes-sociales .ul-footer .position {
+        position: fixed;
+        bottom: 80px;
+        right: 30px; }

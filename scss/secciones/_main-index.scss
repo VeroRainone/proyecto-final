@@ -1,0 +1,141 @@
+.h1-banner{
+    background-color: $gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 10px;
+    @include tablet{
+        width: 515px;
+        margin-left: 100px;
+    }
+    @include notebook{
+        width: 565px;
+        margin-left: 190px;
+    }
+    @include laptop{
+        width: 600px;
+        margin-left: 370px;
+    }
+}
+.ancho-banner{
+    width: 100%;
+    img{
+      height: 500px;
+      object-fit: cover;
+    }
+    .texto-banner{
+        background-color: $gray-blur;
+        width: 300px;
+        height: 130px;
+        @include tablet{
+            width: 420px;
+        }    
+        @include notebook{
+            width: 580px;
+        }
+    }
+}
+.green-code{
+    @include tablet{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .green-code-card{
+        width: 300px;
+        height: 610px;
+        margin: 10px;
+        padding-top: 10px;
+        text-align: center;
+        background-color: $gray;
+        @include tablet{
+            height: auto;
+        }
+        @include notebook{
+            width: 450px;
+            height: 515px;
+            margin-top: 70px;
+        }
+        .barra-card-index{
+            border-left: 5px solid $barra;
+            width: 210px;
+            margin-left: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            @include tablet{
+                width: 245px;
+                margin-left: 30px;
+            }
+            @include notebook{
+                width: 260px;
+                margin-left: 110px;
+            }
+            @include laptop{
+                width: 270px;
+                margin-left: 100px;
+            }
+        }
+        p{
+            margin: 10px;
+        }
+    }
+    .green-icons{
+        display: block;
+        width: 300px;
+        margin: 15px auto;
+        @include tablet{
+            width: 450px;
+        }
+    }    
+}
+.opiniones{
+    display: flex;
+    flex-direction: column;
+    background-color: $gray;
+    .barra-index{
+        border-left: 5px solid $barra;
+        width: 275px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        @include tablet{
+            width: 340px;
+            margin-left: 220px;
+        }
+        @include notebook{
+            width: 365px;
+            margin-left: 335px;
+        }
+        @include laptop{
+            width: 385px;
+            margin-left: 480px;
+        }
+    }
+    figure{
+        display: flex;
+        justify-content: space-between;
+        @include tablet {
+            justify-content: space-around;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 150px;
+            @include tablet {
+                width: 200px;
+                height: 200px;
+            }
+        }
+        p{
+            width: 100px;
+            @include tablet {
+                width: 200px;
+            }
+        }
+    }    
+}
+.iconos img{
+    width: 150px;
+    @include tablet{
+        margin: 0 90px;
+    }
+}

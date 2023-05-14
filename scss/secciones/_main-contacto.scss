@@ -1,0 +1,54 @@
+.barra-contacto{
+    border-left: 5px solid $barra;
+    width: 150px;
+    margin-left: 85px;
+    margin-top: 15px;
+    @include tablet{
+        width: 170px;
+        margin-left: 290px;
+    }
+    @include notebook{
+        width: 195px;
+        margin-left: 405px;
+    }
+    @include laptop{
+        width: 205px;
+        margin-left: 570px;
+    }
+}
+.fondo-contacto{
+    background-image: url("../recursos/mar\ abierto.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.ancho-maximo{
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 30px;
+    .fuente{
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .subrayado{
+        @extend .fuente;
+        text-decoration: underline;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+            display: block;
+            width: 260px;
+            margin: 3px;
+        }
+        textarea{
+            width: 260px;
+            margin: 3px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}

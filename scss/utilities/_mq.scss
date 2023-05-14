@@ -1,0 +1,15 @@
+@mixin tablet {
+    @media (min-width:768px) {
+        @content;
+    }
+}  
+@mixin notebook {
+    @media (min-width:1024px) {
+        @content;
+    }
+}  
+@mixin laptop {
+    @media (min-width:1044px) {
+        @content;
+    }
+}
