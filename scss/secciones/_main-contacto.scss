@@ -1,3 +1,14 @@
+.datos{
+    margin: 10px;
+    .fuente{
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .subrayado{
+        @extend .fuente;
+        text-decoration: underline;
+    }
+}
 .barra-contacto{
     border-left: 5px solid $barra;
     width: 150px;
@@ -26,14 +37,6 @@
     max-width: 800px;
     margin: 15px auto;
     padding: 30px;
-    .fuente{
-        font-size: 21px;
-        font-weight: bold;
-    }
-    .subrayado{
-        @extend .fuente;
-        text-decoration: underline;
-    }
     form{
         display: flex;
         flex-direction: column;

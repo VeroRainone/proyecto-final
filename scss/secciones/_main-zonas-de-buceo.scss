@@ -15,16 +15,12 @@
       }
   }
 }
-.bg-zonas{
-  background-color: $gray;
-}
 .barra-zonas{
   border-left: 5px solid $barra;
   width: 270px;
   margin-left: 25px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 10px;
   @include tablet{
       width: 350px;
       margin-left: 220px;
